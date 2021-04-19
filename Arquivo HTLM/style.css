@@ -1,7 +1,25 @@
-.background {
-    background-position: middle;
-    background-size: auto;
+.backGroundGradient{
+    background-image: url("image/Kyoukai no kanata mirai.jpg");
+    background-position: center;
+    background-size: 1920px;
+    background-repeat: no-repeat;
+    width: auto;
+    opacity: 0.6;
 }
-.buttonStyle{
-    background-color: blue;
+
+.background {
+    background-color: chartreuse;
+    width: 530px;
+    border: 5px solid black;
+}
+.fontStyle{
+    font-style: url("Fonte/Comfortaa-Regular.ttf");
+}
+
+.gamesBackground {
+    width: 200px;
+    border: 5px solid black;
+    background-color: chartreuse;
+    padding: 10px;
+    margin: 0px;
 }
