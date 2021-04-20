@@ -1,4 +1,4 @@
-.backGroundGradient{
+.backGroundGradient {
     background-image: url("image/Kyoukai no kanata mirai.jpg");
     background-position: center;
     background-size: 1920px;
@@ -7,19 +7,68 @@
     opacity: 0.6;
 }
 
-.background {
-    background-color: chartreuse;
-    width: 530px;
-    border: 5px solid black;
+@font-face {
+    font-family: "Comfortaa";
+    src: url("Fonte/Comfortaa-Regular.ttf");
 }
-.fontStyle{
-    font-style: url("Fonte/Comfortaa-Regular.ttf");
+@font-face {
+    font-family: "Roboto";
+    src: url("Fonte/Roboto-Thin.ttf");
 }
 
-.gamesBackground {
-    width: 200px;
+.background {
+    background-color: rgb(212, 129, 205);
+    font-family: "Comfortaa";
+    border-radius: 8px;
+    width: 530px;
+    margin-left: 20px;
+    margin-top: 25px;
     border: 5px solid black;
-    background-color: chartreuse;
-    padding: 10px;
-    margin: 0px;
+}
+.aboutWithMe{
+    background-color: rgb(212, 129, 205);
+    width: 300px;
+    font-family: "Comfortaa";
+    padding: 15px;
+    margin-left: 20px;
+    margin-top: 40px;
+    border: 5px solid black;
+    border-radius: 8px;
+}
+.aboutMe{
+    background-color: rgb(212, 129, 205);
+    border: 5px solid black;
+    font-family: "Comfortaa";
+    width: 350px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+.title{
+    background-color: rgb(212, 129, 205);
+    width: 380px;
+    font-family: "Comfortaa";
+    padding: 15px;
+    margin-left: 20px;
+    border: 5px solid black;
+    border-radius: 8px;
+}
+
+.headerPortifolio {
+    background-color: rgb(245, 150, 253);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 35px;
+    font-family: "Comfortaa";
+}
+
+.myGamesStyle {
+    background-color: rgb(212, 129, 205);
+    width: 500px;
+    font-family: "Comfortaa";
+    padding: 15px;
+    margin: 20px;
+    border: 5px solid black;
+    border-radius: 8px;
 }
