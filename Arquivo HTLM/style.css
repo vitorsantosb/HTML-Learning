@@ -72,3 +72,12 @@
     border: 5px solid black;
     border-radius: 8px;
 }
+.tittleText{
+    background-color: rgb(212, 129, 205);
+    width: 380px;
+    font-family: "Comfortaa";
+    padding: 15px;
+    margin-left: 20px;
+    border: 5px solid black;
+    border-radius: 8px;
+}
