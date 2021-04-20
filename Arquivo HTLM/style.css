@@ -3,8 +3,9 @@
     background-position: center;
     background-size: 1920px;
     background-repeat: no-repeat;
+    height: auto;
     width: auto;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 @font-face {
@@ -72,12 +73,34 @@
     border: 5px solid black;
     border-radius: 8px;
 }
-.tittleText{
+.titleText{
     background-color: rgb(212, 129, 205);
-    width: 380px;
+    width: auto;
     font-family: "Comfortaa";
     padding: 15px;
-    margin-left: 20px;
+    margin-left: 25px;
     border: 5px solid black;
     border-radius: 8px;
+}
+.article{
+    background-color: rgb(212, 129, 205);
+    display: table-cell;
+    float: right;
+    width: 600px;
+    height: 600px;
+    font-family: "Comfortaa";
+    padding: 15px;
+    border: 5px solid black;
+    border-radius: 8px;
+}
+.corpo{
+    margin: auto;
+    width: 960px;
+}
+.conteudo{
+    display: table;
+    float: left;
+}
+.texto{
+    display:table-cell;
 }
