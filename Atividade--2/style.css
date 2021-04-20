@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-img {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+section {
+    position: absolute;
+    top: 10vh;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 2vh;
+    box-shadow: 1vh 1vh 1vh 1vh rgba(0,0,0,0.2);
+    width: 23vw;
+    height: 80vh;
+    padding: 2vh;
+}
+
+section.left {
+    left: 3vw;
+}
+
+section.right {
+    right: 3vw;
+}
+
+section h1 {
+    font-size: 2vh;
+    color: white;
+    font-family: 'Comfortaa', "Roboto", sans-serif;
+}
+
+section .box h1 {
+    font-size: 2vh;
+}
+
+@font-face {
+    font-family: "Comfortaa";
+    src: url("Fonte/Comfortaa-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("Fonte/Roboto-Thin.ttf");
+}
