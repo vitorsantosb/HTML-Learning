@@ -93,14 +93,3 @@
     border: 5px solid black;
     border-radius: 8px;
 }
-.corpo{
-    margin: auto;
-    width: 960px;
-}
-.conteudo{
-    display: table;
-    float: left;
-}
-.texto{
-    display:table-cell;
-}
