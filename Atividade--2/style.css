@@ -13,13 +13,35 @@ body {
     object-fit: cover;
 }
 
+.header {
+    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6vh;
+    color: white;
+    display:flex;
+}
+
+.header p{
+    font-size: 3vh;
+    width: 10vw;
+    font-family: "Comfortaa";
+}
+.hd-img{
+    height: 3vw;
+    width: 6vh;
+}
+
 section {
     position: absolute;
     top: 10vh;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     border-radius: 2vh;
-    box-shadow: 1vh 1vh 1vh 1vh rgba(0,0,0,0.2);
-    width: 23vw;
+    box-shadow: 1vh 1vh 1vh 1vh rgba(0, 0, 0, 0.2);
+    width: 24vw;
     height: 80vh;
     padding: 2vh;
 }
@@ -33,7 +55,7 @@ section.right {
 }
 
 section h1 {
-    font-size: 2vh;
+    font-size: 4vh;
     color: white;
     font-family: 'Comfortaa', "Roboto", sans-serif;
 }
@@ -42,12 +64,19 @@ section .box h1 {
     font-size: 2vh;
 }
 
+iframe {
+    border-radius: 1.5vh;
+    z-index: -1;
+    position: absolute;
+    box-shadow: 0.5vh 0.5vh 1vh 1vh rgba(0, 0, 0, 0.2);
+}
+
 @font-face {
     font-family: "Comfortaa";
-    src: url("Fonte/Comfortaa-Regular.ttf");
+    src: url("Assets/Fonte/Comfortaa");
 }
 
 @font-face {
     font-family: "Roboto";
-    src: url("Fonte/Roboto-Thin.ttf");
+    src: url("Assets/Fonte/Roboto-Thin.ttf");
 }
