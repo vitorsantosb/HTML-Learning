@@ -8,15 +8,6 @@
     opacity: 0.8;
 }
 
-@font-face {
-    font-family: "Comfortaa";
-    src: url("Fonte/Comfortaa-Regular.ttf");
-}
-@font-face {
-    font-family: "Roboto";
-    src: url("Fonte/Roboto-Thin.ttf");
-}
-
 .background {
     background-color: rgb(212, 129, 205);
     font-family: "Comfortaa";
@@ -26,7 +17,8 @@
     margin-top: 25px;
     border: 5px solid black;
 }
-.aboutWithMe{
+
+.aboutWithMe {
     background-color: rgb(212, 129, 205);
     width: 300px;
     font-family: "Comfortaa";
@@ -36,7 +28,8 @@
     border: 5px solid black;
     border-radius: 8px;
 }
-.aboutMe{
+
+.aboutMe {
     background-color: rgb(212, 129, 205);
     border: 5px solid black;
     font-family: "Comfortaa";
@@ -44,7 +37,8 @@
     border-radius: 8px;
     margin-left: 20px;
 }
-.title{
+
+.title {
     background-color: rgb(212, 129, 205);
     width: 380px;
     font-family: "Comfortaa";
@@ -73,7 +67,8 @@
     border: 5px solid black;
     border-radius: 8px;
 }
-.titleText{
+
+.titleText {
     background-color: rgb(212, 129, 205);
     width: auto;
     font-family: "Comfortaa";
@@ -82,14 +77,25 @@
     border: 5px solid black;
     border-radius: 8px;
 }
-.article{
+
+.article {
     background-color: rgb(212, 129, 205);
-    display: table-cell;
     float: right;
-    width: 600px;
+    width: 550px;
     height: 600px;
     font-family: "Comfortaa";
     padding: 15px;
     border: 5px solid black;
     border-radius: 8px;
+    transform: translate(-50%, -105%);
+}
+
+@font-face {
+    font-family: "Comfortaa";
+    src: url("Fonte/Comfortaa-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("Fonte/Roboto-Thin.ttf");
 }
