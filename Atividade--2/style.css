@@ -51,6 +51,8 @@ section {
     width: 45vw;
     height: 80vh;
     padding: 2vh;
+    font-family: 'Comfortaa', "Roboto", sans-serif;
+    color: white;
 }
 
 section.left {
@@ -68,17 +70,26 @@ section .box h1 {
 }
 
 iframe {
+    display: flex;
     border-radius: 1.5vh;
     z-index: 1;
-    left: 6vh;
+    left: 2vh;
     position: absolute;
     width: 25vw;
     height: 30vh;
+    top: 30vh;
     box-shadow: 0.5vh 0.5vh 1vh 1vh rgba(0, 0, 0, 0.2);
 }
-.divRightLine{
-    display: inline-block;
-    left: 30vh;
+.changeColorA{
+    color: white;
+    font-family: 'Comfortaa', "Roboto", sans-serif;
+    font-size: 1.5vh;
+}
+.headerHomePage{
+    font-size: 5vh;
+    color: white;
+    font-family: 'Comfortaa', "Roboto", sans-serif;
+    
 }
 
 @font-face {
