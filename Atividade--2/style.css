@@ -14,24 +14,31 @@ body {
 }
 
 .header {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
-    z-index: 100;
+    z-index: 1;
     top: 0;
     left: 0;
     right: 0;
-    height: 6vh;
+    height: 6.2vh;
     color: white;
     display:flex;
+    font-family: 'Comfortaa', "Roboto", sans-serif;
 }
 
-.header p{
+.btn{
+    background-color: white;
     font-size: 3vh;
-    width: 10vw;
-    font-family: "Comfortaa";
+    width: 5vw;
+    height: 6.2vh;
+    z-index: 2;
+    font-family: "Comfortaa", "Roboto", sans-serif;
+    color: black;
+    display: inline-block;
+    position: fixed;
 }
 .hd-img{
-    height: 3vw;
+    height: 3.3vw;
     width: 6vh;
 }
 
@@ -41,22 +48,18 @@ section {
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 2vh;
     box-shadow: 1vh 1vh 1vh 1vh rgba(0, 0, 0, 0.2);
-    width: 24vw;
+    width: 45vw;
     height: 80vh;
     padding: 2vh;
 }
 
 section.left {
-    left: 3vw;
+    left: 2vw;
 }
-
-section.right {
-    right: 3vw;
-}
-
 section h1 {
     font-size: 4vh;
     color: white;
+
     font-family: 'Comfortaa', "Roboto", sans-serif;
 }
 
@@ -66,9 +69,16 @@ section .box h1 {
 
 iframe {
     border-radius: 1.5vh;
-    z-index: -1;
+    z-index: 1;
+    left: 6vh;
     position: absolute;
+    width: 25vw;
+    height: 30vh;
     box-shadow: 0.5vh 0.5vh 1vh 1vh rgba(0, 0, 0, 0.2);
+}
+.divRightLine{
+    display: inline-block;
+    left: 30vh;
 }
 
 @font-face {
