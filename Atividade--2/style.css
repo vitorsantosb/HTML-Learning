@@ -119,6 +119,28 @@ iframe {
     font-size: 1.7vh;
     margin-left: 2.5vw; 
 }
+.img-todos{
+    position: absolute;
+    width: 27vw;
+    height: 40vh;
+
+}
+.audioStyleW{
+    position: absolute;
+    left: -2vh;
+    transform: translate(10%, 52vh);
+}
+.divWorks{
+    position: absolute;
+    transform: translate(1%, 40vh);
+}
+.img-chefe{
+    position: absolute;
+    left: 29vw;
+    top: 29vh;
+    width: 17vw;
+    height: 30vh;
+}
 @font-face {
     font-family: "Comfortaa";
     src: url("Assets/Fonte/Comfortaa");
