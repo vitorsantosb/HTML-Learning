@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-img {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6.2vh;
+    color: white;
+    display:flex;
+    font-family: 'Comfortaa', "Roboto", sans-serif;
+}
+
+.btn{
+    background-color: white;
+    font-size: 3vh;
+    width: 5vw;
+    height: 6.2vh;
+    z-index: 2;
+    font-family: "Comfortaa", "Roboto", sans-serif;
+    color: black;
+    display: inline-block;
+    position: fixed;
+}
+.hd-img{
+    height: 3.3vw;
+    width: 6vh;
+}
+
+section {
+    position: absolute;
+    top: 10vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 2vh;
+    box-shadow: 1vh 1vh 1vh 1vh rgba(0, 0, 0, 0.2);
+    width: 45vw;
+    height: 80vh;
+    padding: 2vh;
+    font-family: 'Comfortaa', "Roboto", sans-serif;
+    color: white;
+}
+
+section.left {
+    left: 2vw;
+}
+section h1 {
+    font-size: 4vh;
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Comfortaa', "Roboto", sans-serif;
+}
+
+section .box h1 {
+    font-size: 2vh;
+}
+
+iframe {
+    display: flex;
+    border-radius: 1.5vh;
+    z-index: 1;
+    left: 6vh;
+    position: absolute;
+    width: 25vw;
+    height: 30vh;
+    top: 35vh;
+    box-shadow: 0.5vh 0.5vh 1vh 1vh rgba(0, 0, 0, 0.2);
+}
+.changeColorA{
+    color: white;
+    font-family: 'Comfortaa', "Roboto", sans-serif;
+    font-size: 1.5vh;
+}
+.headerHomePage{
+    font-size: 5vh;
+    position: center;
+    z-index: 1;
+    color: white;
+    font-family: 'Comfortaa', "Roboto", sans-serif;
+    
+}
+.pIndex{
+    position: absolute;
+    font-family: 'Comfortaa', "Roboto", sans-serif;
+    top: 20vh;
+    left: 1.5vw;
+    font-size: 2.5vh;
+    margin-left: 2.5vw;
+}
+.audioStyle{
+    position: absolute;
+    transform: translate(10%, 50vh);
+}
+.audioStyleP{
+    position: absolute;
+    left: -2vh;
+    transform: translate(10%, 1.5vh);
+}
+.h3line{
+    position: absolute;
+    top: 24vh;
+    font-size: 1.7vh;
+    margin-left: 2.5vw; 
+}
+.img-todos{
+    position: absolute;
+    width: 27vw;
+    height: 40vh;
+
+}
+.audioStyleW{
+    position: absolute;
+    left: -2vh;
+    transform: translate(10%, 52vh);
+}
+.divWorks{
+    position: absolute;
+    transform: translate(1%, 40vh);
+}
+.img-chefe{
+    position: absolute;
+    left: 29vw;
+    top: 29vh;
+    width: 17vw;
+    height: 30vh;
+}
+.gitLogo{
+    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    transform: translate(8vw, -4.8vh);
+}
+.devLogo{
+    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    transform: translate(9vw, 3vh);
+    background-color: white;
+    border-radius: 12px;
+}
+.myPhoto{
+    position: absolute;
+    border-radius: 12px;
+    transform: translate(24vw, -21vh);
+    width: 10vw;
+    height: 18vh;
+    box-shadow: 0.5vh 0.5vh 1vh 1vh rgba(0, 0, 0, 0.4);
+}
+@font-face {
+    font-family: "Comfortaa";
+    src: url("Assets/Fonte/Comfortaa");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("Assets/Fonte/Roboto-Thin.ttf");
+}
