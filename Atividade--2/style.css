@@ -61,7 +61,9 @@ section.left {
 section h1 {
     font-size: 4vh;
     color: white;
-
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
     font-family: 'Comfortaa', "Roboto", sans-serif;
 }
 
@@ -73,25 +75,50 @@ iframe {
     display: flex;
     border-radius: 1.5vh;
     z-index: 1;
-    left: 2vh;
+    left: 6vh;
     position: absolute;
     width: 25vw;
     height: 30vh;
-    top: 30vh;
+    top: 35vh;
     box-shadow: 0.5vh 0.5vh 1vh 1vh rgba(0, 0, 0, 0.2);
 }
 .changeColorA{
     color: white;
     font-family: 'Comfortaa', "Roboto", sans-serif;
     font-size: 1.5vh;
+    
 }
 .headerHomePage{
     font-size: 5vh;
+    position: center;
+    z-index: 1;
     color: white;
     font-family: 'Comfortaa', "Roboto", sans-serif;
     
 }
-
+.pIndex{
+    position: absolute;
+    font-family: 'Comfortaa', "Roboto", sans-serif;
+    top: 20vh;
+    left: 1.5vw;
+    font-size: 2.5vh;
+    margin-left: 2.5vw;
+}
+.audioStyle{
+    position: absolute;
+    transform: translate(10%, 50vh);
+}
+.audioStyleP{
+    position: absolute;
+    left: -2vh;
+    transform: translate(10%, 1.5vh);
+}
+.h3line{
+    position: absolute;
+    top: 24vh;
+    font-size: 1.7vh;
+    margin-left: 2.5vw; 
+}
 @font-face {
     font-family: "Comfortaa";
     src: url("Assets/Fonte/Comfortaa");
